@@ -17,7 +17,7 @@ export default function SearchBar() {
       <S.TextInput
         onChangeText={setSearch}
         value={search}
-        placeholder="Search user..."
+        placeholder="Search github user..."
         placeholderTextColor="#FFF"
       />
       <S.ContainerButton
@@ -25,7 +25,7 @@ export default function SearchBar() {
           search.trim() === '' ? dispatch(getUser()) : dispatch(getUser(search))
         }}
       >
-        <Icon name="search" size={20} color="#FFF" />
+        <Icon name="search" size={20} color="#2778ff" />
       </S.ContainerButton>
     </S.Container>
   )

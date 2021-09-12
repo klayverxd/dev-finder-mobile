@@ -8,9 +8,9 @@ export const Container = styled.View`
 
   flex-direction: row;
 
-  justify-content: space-between;
+  margin: 20px 20px;
 
-  padding: 12px 18px;
+  justify-content: space-between;
 `
 
 export const Text = styled(TextComponent)`

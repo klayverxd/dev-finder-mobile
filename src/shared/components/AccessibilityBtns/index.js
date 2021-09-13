@@ -53,7 +53,7 @@ export default function AccessibilityBtns() {
             dispatch(switchTheme(defaultTheme))
           }}
         >
-          <Icon name="adjust" size={18} color="#FFF" />
+          <Icon name="adjust" size={18} color="#000" />
         </S.Button>
       )}
     </S.ContainerBtns>

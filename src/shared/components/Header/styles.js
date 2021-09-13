@@ -14,7 +14,7 @@ export const Container = styled.View`
 `
 
 export const Text = styled(TextComponent)`
-  color: #fff;
+  color: ${({ theme }) => theme.PRIMARY_TEXT_COLOR};
 
   font-size: 22px;
   font-weight: bold;

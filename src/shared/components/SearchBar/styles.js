@@ -7,13 +7,15 @@ export const Container = styled.View`
 
   flex-direction: row;
 
+  elevation: 20;
+
   margin: 20px 20px 0;
 
   padding: 12px 18px;
 `
 
 export const TextInput = styled.TextInput`
-  color: #fff;
+  color: ${({ theme }) => theme.PRIMARY_TEXT_COLOR};
 
   font-size: 16px;
 

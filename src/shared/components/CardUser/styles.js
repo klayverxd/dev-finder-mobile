@@ -8,6 +8,8 @@ export const Container = styled.View`
 
   border-radius: 10px;
 
+  elevation: 20;
+
   justify-content: space-evenly;
 
   height: 88%;

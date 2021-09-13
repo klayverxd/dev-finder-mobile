@@ -10,6 +10,8 @@ export const Button = styled.TouchableOpacity`
   background-color: ${({ theme }) => theme.SECONDARY_COLOR};
   border-radius: 10px;
 
+  elevation: 10;
+
   margin-left: 12px;
 
   padding: 8px;
@@ -17,6 +19,6 @@ export const Button = styled.TouchableOpacity`
   width: 40px;
 `
 export const LetterText = styled.Text`
-  color: #fff;
+  color: ${({ theme }) => theme.PRIMARY_TEXT_COLOR};
   font-weight: bold;
 `

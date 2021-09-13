@@ -17,13 +17,17 @@ export default function User() {
       {loading && <ActivityIndicator size="large" color="#999" />}
 
       {!hasFilter && !hasUser && !loading && (
-        <S.ErrorText>Search for a GitHub User!</S.ErrorText>
+        <S.Content>
+          <S.ErrorText>Search for a GitHub User!</S.ErrorText>
+        </S.Content>
       )}
 
       {hasUser && !loading && <CardUser />}
 
       {hasFilter && !hasUser && !loading && (
-        <S.ErrorText>User not found...</S.ErrorText>
+        <S.Content>
+          <S.ErrorText>User not found...</S.ErrorText>
+        </S.Content>
       )}
     </S.Container>
   )

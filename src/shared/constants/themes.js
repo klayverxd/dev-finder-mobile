@@ -26,6 +26,8 @@ export const defaultTheme = {
   PRIMARY_COLOR: '#151C30',
   SECONDARY_COLOR: '#1F2A48',
   PRIMARY_ICON_COLOR: '#ffffff',
+  PRIMARY_SOCIAL_ICON_COLOR: '#2778ff',
+  SECONDARY_SOCIAL_ICON_COLOR: '#A4A4A4',
 }
 
 export const contrastTheme = {
@@ -38,4 +40,6 @@ export const contrastTheme = {
   PRIMARY_COLOR: '#F5F8FF',
   SECONDARY_COLOR: '#ffffff',
   PRIMARY_ICON_COLOR: '#000000',
+  PRIMARY_SOCIAL_ICON_COLOR: '#2778ff',
+  SECONDARY_SOCIAL_ICON_COLOR: '#A4A4A4',
 }

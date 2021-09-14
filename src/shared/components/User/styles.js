@@ -8,13 +8,13 @@ export const Container = styled.View`
   justify-content: center;
 `
 
-export const Content = styled.View`
+export const Content = styled.View.attrs({
+  elevation: 20,
+})`
   align-items: center;
   background-color: ${({ theme }) => theme.SECONDARY_COLOR};
 
   border-radius: 10px;
-
-  elevation: 20;
 
   justify-content: space-evenly;
 

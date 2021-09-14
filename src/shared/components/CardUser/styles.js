@@ -2,13 +2,13 @@ import styled from 'styled-components/native'
 
 import TextComponent from '../Text'
 
-export const Container = styled.View`
+export const Container = styled.View.attrs({
+  elevation: 20,
+})`
   align-items: center;
   background-color: ${({ theme }) => theme.SECONDARY_COLOR};
 
   border-radius: 10px;
-
-  elevation: 20;
 
   justify-content: space-evenly;
 

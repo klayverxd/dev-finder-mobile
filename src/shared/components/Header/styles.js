@@ -10,6 +10,8 @@ export const Container = styled.View`
 
   margin: 20px 20px;
 
+  text-align: center;
+
   justify-content: space-between;
 `
 
@@ -18,4 +20,9 @@ export const Text = styled(TextComponent)`
 
   font-size: 22px;
   font-weight: bold;
+`
+
+export const Logo = styled.Image`
+  width: 150px;
+  height: 24px;
 `

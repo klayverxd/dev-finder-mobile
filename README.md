@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/logo-black.png" alt="DEV FINDER logo" width="220px">
+  <img src=".github/logo.png" alt="DEV FINDER logo" width="220px">
 </div>
 
 ## DEV FINDER

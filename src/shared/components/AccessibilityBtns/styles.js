@@ -4,13 +4,13 @@ export const ContainerBtns = styled.View`
   flex-direction: row;
 `
 
-export const Button = styled.TouchableOpacity`
+export const Button = styled.TouchableOpacity.attrs({
+  elevation: 10,
+})`
   align-items: center;
 
   background-color: ${({ theme }) => theme.SECONDARY_COLOR};
   border-radius: 10px;
-
-  elevation: 10;
 
   margin-left: 12px;
 

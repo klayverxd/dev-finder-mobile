@@ -18,7 +18,6 @@ export default function SearchBar() {
         onChangeText={setSearch}
         value={search}
         placeholder="Search github user..."
-        placeholderTextColor="rgb(164, 164, 164)"
       />
       <S.ContainerButton
         onPress={() => {

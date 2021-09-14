@@ -39,23 +39,16 @@ export default function AccessibilityBtns() {
       >
         <S.LetterText>A+</S.LetterText>
       </S.Button>
-      {theme.mode === 'default' ? (
-        <S.Button
-          onPress={() => {
-            dispatch(switchTheme(contrastTheme))
-          }}
-        >
-          <Icon name="adjust" size={18} color="#FFF" />
-        </S.Button>
-      ) : (
-        <S.Button
-          onPress={() => {
-            dispatch(switchTheme(defaultTheme))
-          }}
-        >
-          <Icon name="adjust" size={18} color="#000" />
-        </S.Button>
-      )}
+
+      <S.Button
+        onPress={() => {
+          dispatch(
+            switchTheme(theme.mode === 'default' ? contrastTheme : defaultTheme)
+          )
+        }}
+      >
+        <Icon name="adjust" size={18} color={theme.PRIMARY_ICON_COLOR} />
+      </S.Button>
     </S.ContainerBtns>
   )
 }

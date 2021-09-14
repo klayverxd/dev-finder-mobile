@@ -37,5 +37,5 @@ export const contrastTheme = {
   GRAY_TEXT_COLOR: '#A4A4A4',
   PRIMARY_COLOR: '#F5F8FF',
   SECONDARY_COLOR: '#ffffff',
-  PRIMARY_ICON_COLOR: '#ffff00',
+  PRIMARY_ICON_COLOR: '#000000',
 }
